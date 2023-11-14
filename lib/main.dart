@@ -2,7 +2,7 @@ import 'package:basics_of_flutter_30days/login_page.dart';
 import 'package:basics_of_flutter_30days/utils/routes.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:google_fonts/google_fonts.dart';
+
 
 import 'home_page.dart';
 
