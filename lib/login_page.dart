@@ -1,7 +1,6 @@
 import 'package:basics_of_flutter_30days/utils/routes.dart';
 import 'package:flutter/material.dart';
 
-
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
 
@@ -13,6 +12,22 @@ class LoginPage extends StatefulWidget {
 class _LoginPageState extends State<LoginPage> {
   String name = "";
   bool changeButton = false;
+
+  final _formKey = GlobalKey<FormState>();
+
+  moveToHome(BuildContext context) async {
+    if (_formKey.currentState?.validate() ?? false) {
+      setState(() {
+        changeButton = true;
+      });
+      await Future.delayed(const Duration(seconds: 1));
+      // ignore: use_build_context_synchronously
+      await Navigator.pushNamed(context, myRoutes.homeRoutes);
+      setState(() {
+        changeButton = false;
+      });
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
