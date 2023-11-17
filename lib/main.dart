@@ -1,10 +1,9 @@
-import 'package:basics_of_flutter_30days/login_page.dart';
+import 'package:basics_of_flutter_30days/pages/login_page.dart';
 import 'package:basics_of_flutter_30days/utils/routes.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'pages/home_page.dart';
 
-
-import 'home_page.dart';
 
 void main(){
   runApp(const MyApp());
@@ -26,7 +25,7 @@ class MyApp extends StatelessWidget {
       ),
       routes:{
         "/":(context) => const LoginPage(),
-        myRoutes.homeRoutes:(context) => const HomePage(),
+        myRoutes.homeRoutes:(context) => HomePage(),
          myRoutes.loginRoutes:(context) => const LoginPage()
       },
     );
