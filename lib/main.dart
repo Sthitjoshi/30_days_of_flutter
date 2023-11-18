@@ -18,8 +18,8 @@ class MyApp extends StatelessWidget {
       darkTheme:MyTheme.darkTheme(context),
       debugShowCheckedModeBanner: false,
       routes:{
-        "/":(context) => const HomePage(),
-        myRoutes.homeRoutes:(context) => const HomePage(),
+        "/":(context) => HomePage(),
+        myRoutes.homeRoutes:(context) => HomePage(),
          myRoutes.loginRoutes:(context) => const LoginPage()
       },
     );

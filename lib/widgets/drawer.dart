@@ -6,7 +6,7 @@ class MyDrawer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const imageUrl = "https://avatars.githubusercontent.com/u/119475373?s=400&u=1e1868a92bb54349e7868411eedc71124c0e89d1&v=4";
+    const imageUrl = "https://filmdaily.co/wp-content/uploads/2018/08/Lucifer-Featured.jpg";
     return Drawer(
       child: Container(
         color: Colors.deepPurple[600],
