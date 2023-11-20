@@ -1,7 +1,7 @@
 import 'package:basics_of_flutter_30days/pages/login_page.dart';
 import 'package:basics_of_flutter_30days/utils/routes.dart';
 import 'package:flutter/material.dart';
-import 'pages/home_page.dart';
+import '../pages/home_page.dart';
 import 'package:basics_of_flutter_30days/widgets/themes.dart';
 
 void main(){
