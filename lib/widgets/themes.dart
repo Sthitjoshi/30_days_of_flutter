@@ -7,6 +7,7 @@ class MyTheme {
       fontFamily: GoogleFonts.lato().fontFamily,
       appBarTheme: AppBarTheme(
         color: Colors.white,
+
         elevation: 0.0,
         iconTheme: const IconThemeData(color: Colors.black),
         toolbarTextStyle: Theme.of(context).textTheme.bodyText2,
@@ -16,4 +17,8 @@ class MyTheme {
   static ThemeData darkTheme(BuildContext context) => ThemeData(
     brightness: Brightness.dark,
   );
+
+  //Colors
+  static Color creamColor = Color(0xfff5f5f5);
+  static Color darkBlueColor = Color(0xff403b58);
 }
