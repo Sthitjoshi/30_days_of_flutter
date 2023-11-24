@@ -12,6 +12,7 @@ class MyTheme {
         color: Colors.white,
         elevation: 0.0,
         iconTheme: const IconThemeData(color: Colors.black),
+        foregroundColor: Colors.white54,
         toolbarTextStyle: Theme.of(context).textTheme.bodyText2,
         titleTextStyle: Theme.of(context).textTheme.headline6,
       ));
@@ -33,8 +34,8 @@ class MyTheme {
   );
 
   //Colors
-  static Color creamColor = Color(0xfff5f5f5);
+  static Color creamColor = const Color(0xfff5f5f5);
   static Color darkCreamColor =Vx.gray900;
-  static Color darkBlueColor = Color(0xff403b58);
+  static Color darkBlueColor = const Color(0xff403b58);
   static Color lightBlueColor = Vx.purple400;
 }
